@@ -9,9 +9,14 @@
 
 # Laravel Package Development
 
-## Adding a package
+## Add an existing package
 ```
-git submodule add -f git@github.com:USER/REPOSITORY.git packages/REPOSITORY
+php artisan package:add "git@github.com:USER/REPOSITORY.git"
+```
+
+## Remove an existing package
+```
+php artisan package:remove PACKAGE
 ```
 
 ## Contributing
