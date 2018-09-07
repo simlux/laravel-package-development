@@ -1,3 +1,0 @@
-[submodule "packages/laravel-supervisor"]
-	path = packages/laravel-supervisor
-	url = git@github.com:simlux/laravel-supervisor.git
